@@ -1,4 +1,4 @@
-const { pool } = require('../configuracion/baseDatosPostgres');  // Asegúrate de importar 'pool' correctamente
+const  pool  = require('../configuracion/baseDatosPostgres');  // Asegúrate de importar 'pool' correctamente
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
